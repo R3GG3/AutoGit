@@ -131,7 +131,6 @@ namespace AutoGit
                 writer.WriteLine("git remote add origin " + "https://github.com/" + username + "/" + reposname + ".git");
                 writer.WriteLine("timeout 1");
                 writer.WriteLine("git push -u origin master");
-                writer.WriteLine("timeout 1");
                 writer.WriteLine("exit");
                 writer.Close();
             }
@@ -140,6 +139,7 @@ namespace AutoGit
             {
                 StreamWriter writer = new StreamWriter("commands.bat");
                 writer.WriteLine("@echo off");
+                writer.WriteLine("title AutoGit");
                 writer.WriteLine("timeout 1");
                 writer.WriteLine(discname);
                 writer.WriteLine("timeout 1");
@@ -168,16 +168,6 @@ namespace AutoGit
             Thread.Sleep(500);
             ExecuteAsAdmin("commands.bat");
             //-----------------------------------------------------------------------------------------------------------------
-            Thread.Sleep(3000);
-            if (Directory.Exists(fullpath+@"\.git"))
-            {
-                MessageBox.Show("DONE!");
-            }
-
-            else
-            {
-                MessageBox.Show("Something goes wrong, Sorry!");
-            }
         }
 
         public void ExecuteAsAdmin(string fileName)
