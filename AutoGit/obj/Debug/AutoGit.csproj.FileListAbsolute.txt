@@ -1,0 +1,11 @@
+C:\Users\konra\source\repos\AutoGit\AutoGit\bin\Debug\AutoGit.exe.config
+C:\Users\konra\source\repos\AutoGit\AutoGit\bin\Debug\AutoGit.exe
+C:\Users\konra\source\repos\AutoGit\AutoGit\bin\Debug\AutoGit.pdb
+C:\Users\konra\source\repos\AutoGit\AutoGit\obj\Debug\AutoGit.csprojAssemblyReference.cache
+C:\Users\konra\source\repos\AutoGit\AutoGit\obj\Debug\AutoGit.Form1.resources
+C:\Users\konra\source\repos\AutoGit\AutoGit\obj\Debug\AutoGit.Properties.Resources.resources
+C:\Users\konra\source\repos\AutoGit\AutoGit\obj\Debug\AutoGit.csproj.GenerateResource.cache
+C:\Users\konra\source\repos\AutoGit\AutoGit\obj\Debug\AutoGit.csproj.CoreCompileInputs.cache
+C:\Users\konra\source\repos\AutoGit\AutoGit\obj\Debug\AutoGit.exe
+C:\Users\konra\source\repos\AutoGit\AutoGit\obj\Debug\AutoGit.pdb
+C:\Users\konra\source\repos\AutoGit\AutoGit\obj\Debug\AutoGit.Config.resources
